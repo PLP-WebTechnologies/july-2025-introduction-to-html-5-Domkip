@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Learn how to build accessible and SEO-friendly web pages using HTML5 semantic elements." />
+  <meta name="author" content="Your Name" />
+  <title>Build Accessible and SEO-Friendly Web Pages with HTML5</title>
+</head>
+
+<body>
+  <header role="banner">
+    <h1>Welcome to Web Basics</h1>
+    <p>Your guide to building semantic, accessible, and discoverable websites using HTML5.</p>
+  </header>
+
+  <nav role="navigation" aria-label="Main navigation">
+    <ol type="1">
+      <li><a href="#about">About</a></li>
+      <li><a href="#tutorial">Tutorial</a></li>
+      <li><a href="#resources">Resources</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ol>
+  </nav>
+
+  <main role="main">
+    <article>
+      <section id="about">
+        <h2>About This Page</h2>
+        <p>This sample webpage demonstrates how to use HTML5 semantic tags to create structured, accessible, and SEO-friendly content.</p>
+      </section>
+
+      <section id="tutorial">
+        <h2>HTML5 Semantic Tutorial</h2>
+        <h3>Why Use Semantic Tags?</h3>
+        <p>Semantic elements like <code>&lt;header&gt;</code> and <code>&lt;article&gt;</code> provide meaning to the content, making it easier for search engines and assistive technologies to understand.</p>
+
+        <h3>How Accessibility is Enhanced</h3>
+        <p>By using landmarks and ARIA roles appropriately, users navigating with screen readers can easily jump between sections of your page.</p>
+      </section>
+
+      <section id="resources">
+        <h2>Useful Resources</h2>
+        <ul>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">MDN HTML Elements Reference</a></li>
+          <li><a href="https://www.w3.org/WAI/standards-guidelines/wcag/">WCAG Accessibility Guidelines</a></li>
+          <li><a href="https://web.dev/learn/html/">web.dev HTML Learning Path</a></li>
+        </ul>
+      </section>
+    </article>
+
+    <aside aria-label="Related Tips">
+      <h2>Quick Tips</h2>
+      <ul>
+        <li>Use <code>&lt;main&gt;</code> only once per page.</li>
+        <li>Always provide alt text for images (not shown here).</li>
+        <li>Headings should follow a logical order.</li>
+      </ul>
+    </aside>
+  </main>
+
+  <footer role="contentinfo">
+    <p>&copy; 2025 Your Name. All rights reserved.</p>
+    <p><a href="#top">Back to top</a></p>
+  </footer>
+</body>
+</html>
